@@ -16,7 +16,7 @@
         <mxCell id="1vArnsFnHh9U5F05Dsb3-2" value="Github" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" vertex="1" parent="1">
           <mxGeometry x="320" y="150" width="75" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="1vArnsFnHh9U5F05Dsb3-6" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Kubernetes.svg;" vertex="1" parent="1">
+        <mxCell id="1vArnsFnHh9U5F05Dsb3-6" value="RB K3s" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Kubernetes.svg;" vertex="1" parent="1">
           <mxGeometry x="332.5" y="450" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="1vArnsFnHh9U5F05Dsb3-8" value="argocd" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=deploy" vertex="1" parent="1">
@@ -31,11 +31,44 @@
         <mxCell id="1vArnsFnHh9U5F05Dsb3-13" value="rabbitmq" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=deploy" vertex="1" parent="1">
           <mxGeometry x="680" y="450" width="50" height="48" as="geometry" />
         </mxCell>
+        <mxCell id="1vArnsFnHh9U5F05Dsb3-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1vArnsFnHh9U5F05Dsb3-14" target="1vArnsFnHh9U5F05Dsb3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1vArnsFnHh9U5F05Dsb3-22" value="MQTT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1vArnsFnHh9U5F05Dsb3-16">
+          <mxGeometry x="-0.1333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1vArnsFnHh9U5F05Dsb3-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1vArnsFnHh9U5F05Dsb3-14" target="1vArnsFnHh9U5F05Dsb3-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1vArnsFnHh9U5F05Dsb3-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1vArnsFnHh9U5F05Dsb3-14" target="1vArnsFnHh9U5F05Dsb3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1vArnsFnHh9U5F05Dsb3-26" value="API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1vArnsFnHh9U5F05Dsb3-25">
+          <mxGeometry x="-0.0278" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1vArnsFnHh9U5F05Dsb3-14" value="shellyem-monitor" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=deploy" vertex="1" parent="1">
           <mxGeometry x="570" y="450" width="50" height="48" as="geometry" />
         </mxCell>
+        <mxCell id="1vArnsFnHh9U5F05Dsb3-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1vArnsFnHh9U5F05Dsb3-15" target="1vArnsFnHh9U5F05Dsb3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1vArnsFnHh9U5F05Dsb3-23" value="MQTT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1vArnsFnHh9U5F05Dsb3-17">
+          <mxGeometry x="0.1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1vArnsFnHh9U5F05Dsb3-15" value="shellyem-webapp" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=deploy" vertex="1" parent="1">
           <mxGeometry x="790" y="450" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="1vArnsFnHh9U5F05Dsb3-18" value="ShellyEM" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.iot2;" vertex="1" parent="1">
+          <mxGeometry x="565" y="570" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1vArnsFnHh9U5F05Dsb3-20" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.directmail;" vertex="1" parent="1">
+          <mxGeometry x="568.75" y="340" width="52.5" height="34.8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
